@@ -13,13 +13,13 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
-const instagram = 'https://instagram.com/reuz.id'; 
-const telegram = 'https://t.me/reuzzz'; 
+const BotName = 'HikariBotz☄'; 
+const instagram = 'https://www.instagram.com/invites/contact/?i=6rueh5qjjvbn&utm_content=iwf9zg0'; 
+const telegram = '-'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
-//const grupch1 = 'belum ada grup'; 
-//const grupch2 = 'belum ada grup' ; 
+const youtube = '-';
+//const grupch1 = 'https://chat.whatsapp.com/KeVpHIHXOdS4LIvO4f3yTn'; 
+//const grupch2 = 'https://chat.whatsapp.com/EJ8DrLJLMTKHfIRJpGMGlW' ; 
 const
 {
    WAConnection,
@@ -68,7 +68,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@iqballss_____`)
 })
 
 conn.on('message-new', async(m) =>
